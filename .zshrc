@@ -5,15 +5,13 @@
 export LANG=en_US.UTF-8
 
 # PATH
-PATH=$HOME/local/bin:/usr/local/bin:/sbin:/usr/bin:$PATH
-PATH=$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH
-export PATH
+# export PATH="$HOME/local/bin:/usr/local/bin:/sbin:/usr/bin"
 
 # NodeJS
 ## nodenv
 eval "$(nodenv init -)"
-export PATH="$HOME/.nodenv/bin:$PATH"
-export PATH="$HOME/.nodenv/versions/14.16.1/bin"
+export PATH=$PATH:"$HOME/.nodenv/bin"
+export PATH=$PATH:"$HOME/.nodenv/versions/14.16.1/bin"
 
 #--------------------------------------
 # Alias
