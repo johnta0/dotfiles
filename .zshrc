@@ -13,6 +13,7 @@ export PATH
 ## nodenv
 eval "$(nodenv init -)"
 export PATH="$HOME/.nodenv/bin:$PATH"
+export PATH="$HOME/.nodenv/versions/14.16.1/bin"
 
 #--------------------------------------
 # Alias
