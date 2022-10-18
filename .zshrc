@@ -9,9 +9,9 @@ export LANG=en_US.UTF-8
 
 # NodeJS
 ## nodenv
-eval "$(nodenv init -)"
-export PATH=$PATH:"$HOME/.nodenv/bin"
-export PATH=$PATH:"$HOME/.nodenv/versions/14.16.1/bin"
+#eval "$(nodenv init -)"
+#export PATH=$PATH:"$HOME/.nodenv/bin"
+#export PATH=$PATH:"$HOME/.nodenv/versions/14.16.1/bin"
 
 #--------------------------------------
 # Alias
