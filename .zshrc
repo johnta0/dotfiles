@@ -10,6 +10,10 @@ export LANG=en_US.UTF-8
 # gpg
 export GPG_TTY=$(tty)
 
+# ssh-agent
+ssh-add $HOME/.ssh/github
+
+
 # anyenv
 eval "$(anyenv init -)"
 
